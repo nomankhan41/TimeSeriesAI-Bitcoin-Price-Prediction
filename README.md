@@ -18,10 +18,10 @@ This project aims to forecast the closing price of Bitcoin using time series ana
 
 ## 🧪 Model Evaluation Metrics
 
-| Model  | MAE        | MSE           | MAPE (%) | R² Score |
-|--------|------------|---------------|----------|----------|
-| ARIMA  | 18,695.91  | 564,851,100   | 20.16%   | -1.3965  |
-| SARIMA | 14,663.09  | 359,822,600   | 15.75%   | -0.5266  |
+| Model  | MAE        | MSE           | MAPE (%) |
+|--------|------------|---------------|----------|
+| ARIMA  | 18,695.91  | 564,851,100   | 20.16%   | 
+| SARIMA | 14,663.09  | 359,822,600   | 15.75%   | 
 
 > Although SARIMA performs better overall based on the error metrics, ARIMA occasionally gives more accurate predictions due to its simplicity.
 
